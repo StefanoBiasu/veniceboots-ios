@@ -15,7 +15,7 @@ class CurrentSeaLevelManager {
     
     fileprivate let SEA_LEVEL_URL = "https://www.comune.venezia.it/sites/default/files/publicCPSM2/stazioni/temporeale/Punta_Salute.html"
     
-    public var currentSeaLevelPort = 8442
+    public var currentSeaLevelPort = 443
     
     private static var sharedCSLM: CurrentSeaLevelManager = {
         let currentSeaLevelManager = CurrentSeaLevelManager()
