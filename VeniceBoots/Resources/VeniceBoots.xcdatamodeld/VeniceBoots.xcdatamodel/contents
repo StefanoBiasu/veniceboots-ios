@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PathMO" representedClassName="PathMO" syncable="YES">
+        <attribute name="lastUpdateDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="path" attributeType="String"/>
+        <relationship name="tiles" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TileMO" inverseName="path" inverseEntity="TileMO"/>
+    </entity>
+    <entity name="TileMO" representedClassName="TileMO" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="x" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="y" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="z" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="path" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PathMO" inverseName="tiles" inverseEntity="PathMO"/>
+    </entity>
+    <elements>
+        <element name="PathMO" positionX="87.51171875" positionY="-40.65234375" width="128" height="88"/>
+        <element name="TileMO" positionX="-117.8828125" positionY="-58.12890625" width="128" height="118"/>
+    </elements>
+</model>

@@ -1,0 +1,36 @@
+// Global
+"last_updated_sea_level" = "Livello mare: %@ cm";
+"sea_level_update" = "Premi per aggiornare";
+"info_label_green_areas" = "Le aree verdi sono uguali o al di sotto del livello del mare";
+"info_label_green_areas_unselected" = "Le aree verdi sono uguali o al di sotto del livello del mare. Seleziona un livello";
+
+// Menu
+"current_sea_level_menu" = "attuale";
+"sea_levels_menu" = "livelli";
+"simulate_sea_level_menu" = "simulazione";
+"settings_menu" = "impostazioni";
+"info_menu" = "informazioni";
+
+// Current sea level
+"current_sea_level_info_label_no_areas" = "Non ci sono aree sotto il livello del mare. Per simulare, vai alla sezione simulaizone";
+"current_sea_level_navigation_title" = "Livello del mare attuale";
+
+// Sea levels
+"sea_levels_navigation_title" = "Livelli";
+"info_label_sea_levels_legend" = "In legenda sono indicati i centimetri sopra il livello del mare";
+
+// Simulate sea levels
+"simulate_sea_levels_navigation_title" = "Simula";
+"simulate_sea_levels_select" = "seleziona";
+"simulate_sea_level_no_selection" = "Nessun livello selezionato";
+"simulate_sea_level_selected" = "Livello selezionato: %@";
+
+// Settings
+"settings_navigation_title" = "Impostazioni";
+"settings_reset_map_cache" = "cancella cache mappe";
+
+// Info
+"info_navigation_title" = "Informazioni";
+"info_text_provisions" = "Le mappe sono ricavate dai servizi di OpenStreetMaps, mentre il livello del mare è definito in riferimento al livello del mare della stazione di Punta della Salute, servizio offerto dal Comune di Venezia. Le curve di livello sono un'elaborazione di dati derivanti dalla Fonte informativa: Insula spa";
+"info_text_legal" = "Nessuna responsabilità derivante dall'uso di questa applicazione è prevista. \n Informazioni riguardanti i device usati da servizi di terze parti sono limitate a FireBase Crashlytics, la cui privacy policy è riportata qui: https://firebase.google.com/support/privacy. \n\n\nGrazie a Davide Ramo, Samuele Biasutti e Simone Biasutti";
+"info_text_credits" = "Per ogni comunicazione, contattare Stefano Biasutti alla seguente mail: stefano.biasu@gmail.com.";

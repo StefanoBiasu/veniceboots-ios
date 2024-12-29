@@ -1,0 +1,37 @@
+// Global
+"last_updated_sea_level" = "Last updated sea level: %@ cm";
+"sea_level_update" = "Click to update";
+"info_label_green_areas" = "Green areas are equal or below the sea level";
+"info_label_green_areas_unselected" = "Green areas are equal or below the sea level. Select a sea level to simulate flooding";
+
+// Menu
+"current_sea_level_menu" = "current";
+"sea_levels_menu" = "sea sevels";
+"simulate_sea_level_menu" = "simulate";
+"settings_menu" = "settings";
+"info_menu" = "info";
+
+// Current sea level
+"current_sea_level_info_label_no_areas" = "No areas below sea level. To simulate a flooding, go to section: simulate";
+"current_sea_level_navigation_title" = "Current sea level";
+
+// Sea levels
+"sea_levels_navigation_title" = "Sea levels";
+"info_label_sea_levels_legend" = "Legend indicates centimeters above sea level";
+
+// Simulate sea levels
+"simulate_sea_levels_navigation_title" = "Simulate sea levels";
+"simulate_sea_levels_select" = "select";
+"simulate_sea_level_no_selection" = "No sea level selected yet";
+"simulate_sea_level_selected" = "Sea level selected: %@";
+
+// Settings
+"settings_navigation_title" = "Settings";
+"settings_reset_map_cache" = "reset map cache";
+
+// Info
+"info_navigation_title" = "Info";
+"info_text_provisions" = "The background maps are provided by OpenStreetMaps. \n The sea level reference is derived from \"Punta della Salute (VE)\" station and it is provided by Comune di Venezia, while source of sea curve levels is Insula spa";
+"info_text_legal" = "We provide the Services on an \"as is\" and \"as available\" basis, and it's expressly disclaimed all express or implied warranties of all kinds.\n Third party services using device informations are limited to FireBase Crashlytics, whose privacy policy is reported here: https://firebase.google.com/support/privacy. \n\n\nThanks to Davide Ramo, Samuele Biasutti and Simone Biasutti";
+"info_text_credits" = "For any communication, please contact stefano.biasu@gmail.com.";
+

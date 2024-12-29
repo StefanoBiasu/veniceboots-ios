@@ -1,0 +1,1282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4828C7D72D20F0D00004E060 /* GridOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4828C7D62D20F0D00004E060 /* GridOverlay.swift */; };
+		4828C7D82D20F0D00004E060 /* GridOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4828C7D62D20F0D00004E060 /* GridOverlay.swift */; };
+		4828C7D92D20F0D00004E060 /* GridOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4828C7D62D20F0D00004E060 /* GridOverlay.swift */; };
+		4828C7DB2D20F1110004E060 /* HackTileOverlayRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4828C7DA2D20F1110004E060 /* HackTileOverlayRenderer.swift */; };
+		4828C7DC2D20F1110004E060 /* HackTileOverlayRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4828C7DA2D20F1110004E060 /* HackTileOverlayRenderer.swift */; };
+		4828C7DD2D20F1110004E060 /* HackTileOverlayRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4828C7DA2D20F1110004E060 /* HackTileOverlayRenderer.swift */; };
+		4828C7DF2D20F1400004E060 /* DelayedGridOverlayRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4828C7DE2D20F1400004E060 /* DelayedGridOverlayRenderer.swift */; };
+		4828C7E02D20F1400004E060 /* DelayedGridOverlayRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4828C7DE2D20F1400004E060 /* DelayedGridOverlayRenderer.swift */; };
+		4828C7E12D20F1400004E060 /* DelayedGridOverlayRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4828C7DE2D20F1400004E060 /* DelayedGridOverlayRenderer.swift */; };
+		4854E55024BC5DE3009D7523 /* SLMapKitMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC76C24449208006D9417 /* SLMapKitMapViewController.swift */; };
+		4854E55224BC5DE3009D7523 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A6833024B9CF99004E383C /* GradientView.swift */; };
+		4854E55324BC5DE3009D7523 /* SeaLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F3A9CB2426354D00094113 /* SeaLevel.swift */; };
+		4854E55524BC5DE3009D7523 /* TileMO+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A6124244C38440044E1BA /* TileMO+CoreDataClass.swift */; };
+		4854E55624BC5DE3009D7523 /* SeaLevelsAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826CE4A249EDCC900050931 /* SeaLevelsAxisValueFormatter.swift */; };
+		4854E55724BC5DE3009D7523 /* PathMO+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A6125244C38440044E1BA /* PathMO+CoreDataClass.swift */; };
+		4854E55824BC5DE3009D7523 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485CB3102446F2D100887A75 /* Tile.swift */; };
+		4854E55924BC5DE3009D7523 /* TileSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485CB3152446F2E800887A75 /* TileSourceProtocol.swift */; };
+		4854E55A24BC5DE3009D7523 /* TilePersistenceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485CB31B244745C500887A75 /* TilePersistenceProtocol.swift */; };
+		4854E55B24BC5DE3009D7523 /* SeaLevelsSideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481CDAED24A7C20800EE79A0 /* SeaLevelsSideMenuTableViewController.swift */; };
+		4854E55C24BC5DE3009D7523 /* SeaLevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC760244491E4006D9417 /* SeaLevelsViewController.swift */; };
+		4854E55D24BC5DE3009D7523 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48309F582439327600B7CFEE /* Utils.swift */; };
+		4854E55E24BC5DE3009D7523 /* CurrentSeaLevelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F3A9CA2426354D00094113 /* CurrentSeaLevelManager.swift */; };
+		4854E55F24BC5DE3009D7523 /* TileMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A6126244C38440044E1BA /* TileMO+CoreDataProperties.swift */; };
+		4854E56024BC5DE3009D7523 /* CurrentSeaLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC759244491E4006D9417 /* CurrentSeaLevelViewController.swift */; };
+		4854E56124BC5DE3009D7523 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC0CA7021FE655E00ED4FA2 /* AppDelegate.swift */; };
+		4854E56224BC5DE3009D7523 /* URLTileSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485CB3172446F2FB00887A75 /* URLTileSource.swift */; };
+		4854E56324BC5DE3009D7523 /* SimulateSeaLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC75B244491E4006D9417 /* SimulateSeaLevelViewController.swift */; };
+		4854E56424BC5DE3009D7523 /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4844D24E241E33B100626949 /* SideMenuTableViewController.swift */; };
+		4854E56524BC5DE3009D7523 /* SLMapConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC77A2445CC93006D9417 /* SLMapConfig.swift */; };
+		4854E56624BC5DE3009D7523 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4833B74A241E41A100AC72FE /* HomeViewController.swift */; };
+		4854E56724BC5DE3009D7523 /* VBConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC7762445B0D3006D9417 /* VBConstants.swift */; };
+		4854E56824BC5DE3009D7523 /* VeniceBoots.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 481A6110244C34C20044E1BA /* VeniceBoots.xcdatamodeld */; };
+		4854E56924BC5DE3009D7523 /* TileSourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A612C244C3DB30044E1BA /* TileSourceManager.swift */; };
+		4854E56A24BC5DE3009D7523 /* PresentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4844D24F241E33B100626949 /* PresentedViewController.swift */; };
+		4854E56B24BC5DE3009D7523 /* TileID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485CB30F2446F2D100887A75 /* TileID.swift */; };
+		4854E56C24BC5DE3009D7523 /* CoreDataTileSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485CB319244712AE00887A75 /* CoreDataTileSource.swift */; };
+		4854E56D24BC5DE3009D7523 /* SLMapContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC75F244491E4006D9417 /* SLMapContainerViewController.swift */; };
+		4854E56E24BC5DE3009D7523 /* SLMapKitTileOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC7742445A0EC006D9417 /* SLMapKitTileOverlay.swift */; };
+		4854E56F24BC5DE3009D7523 /* SLMapViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC76A24449208006D9417 /* SLMapViewControllerProtocol.swift */; };
+		4854E57024BC5DE3009D7523 /* SLMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC7782445B644006D9417 /* SLMapView.swift */; };
+		4854E57624BC5DE3009D7523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC0CA7C21FE656000ED4FA2 /* LaunchScreen.storyboard */; };
+		4854E57724BC5DE3009D7523 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4829281124B7BCE7001B3A92 /* GoogleService-Info.plist */; };
+		4854E57824BC5DE3009D7523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4844D251241E33B100626949 /* Main.storyboard */; settings = {ASSET_TAGS = (170, ); }; };
+		4854E57924BC5DE3009D7523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC0CA7A21FE656000ED4FA2 /* Assets.xcassets */; };
+		4857B85624CF49870086AA64 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4857B85524CF49870086AA64 /* SettingsViewController.swift */; };
+		486AE27E24D56C4E00273FAD /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486AE27D24D56C4E00273FAD /* InfoViewController.swift */; };
+		48792F3E24EC718B005BA123 /* LegendContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48792F3D24EC718B005BA123 /* LegendContainerViewController.swift */; };
+		48792F4324EC7516005BA123 /* LegendContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48792F3D24EC718B005BA123 /* LegendContainerViewController.swift */; };
+		48792F4424EC7516005BA123 /* LegendContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48792F3D24EC718B005BA123 /* LegendContainerViewController.swift */; };
+		48792F4B24EC78FE005BA123 /* SeaLevelLegendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48792F4924EC78FE005BA123 /* SeaLevelLegendCell.swift */; };
+		48792F4C24EC78FE005BA123 /* SeaLevelLegendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48792F4924EC78FE005BA123 /* SeaLevelLegendCell.swift */; };
+		48792F4D24EC78FE005BA123 /* SeaLevelLegendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48792F4924EC78FE005BA123 /* SeaLevelLegendCell.swift */; };
+		48792F4E24EC78FE005BA123 /* SeaLevelLegendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48792F4A24EC78FE005BA123 /* SeaLevelLegendCell.xib */; };
+		48792F4F24EC78FE005BA123 /* SeaLevelLegendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48792F4A24EC78FE005BA123 /* SeaLevelLegendCell.xib */; };
+		48792F5024EC78FE005BA123 /* SeaLevelLegendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48792F4A24EC78FE005BA123 /* SeaLevelLegendCell.xib */; };
+		487D066A24BDB39A009EBF52 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 487D066C24BDB39A009EBF52 /* Localizable.strings */; };
+		487D066F24BDB41B009EBF52 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 487D066D24BDB41B009EBF52 /* Localizable.strings */; };
+		487D067324BDBEBB009EBF52 /* HomeSideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487D067224BDBEBB009EBF52 /* HomeSideMenuTableViewController.swift */; };
+		487F4A2224CDB35600D462D6 /* PathMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487F4A1F24CDB35600D462D6 /* PathMO+CoreDataProperties.swift */; };
+		48B50D2A24D931BD00B8BEAC /* SLMapKitMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC76C24449208006D9417 /* SLMapKitMapViewController.swift */; };
+		48B50D2B24D931BD00B8BEAC /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A6833024B9CF99004E383C /* GradientView.swift */; };
+		48B50D2C24D931BD00B8BEAC /* SeaLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F3A9CB2426354D00094113 /* SeaLevel.swift */; };
+		48B50D2E24D931BD00B8BEAC /* TileMO+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A6124244C38440044E1BA /* TileMO+CoreDataClass.swift */; };
+		48B50D2F24D931BD00B8BEAC /* HomeSideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487D067224BDBEBB009EBF52 /* HomeSideMenuTableViewController.swift */; };
+		48B50D3024D931BD00B8BEAC /* SeaLevelsAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826CE4A249EDCC900050931 /* SeaLevelsAxisValueFormatter.swift */; };
+		48B50D3124D931BD00B8BEAC /* PathMO+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A6125244C38440044E1BA /* PathMO+CoreDataClass.swift */; };
+		48B50D3224D931BD00B8BEAC /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485CB3102446F2D100887A75 /* Tile.swift */; };
+		48B50D3324D931BD00B8BEAC /* TileSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485CB3152446F2E800887A75 /* TileSourceProtocol.swift */; };
+		48B50D3424D931BD00B8BEAC /* TilePersistenceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485CB31B244745C500887A75 /* TilePersistenceProtocol.swift */; };
+		48B50D3524D931BD00B8BEAC /* SeaLevelsSideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481CDAED24A7C20800EE79A0 /* SeaLevelsSideMenuTableViewController.swift */; };
+		48B50D3624D931BD00B8BEAC /* SeaLevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC760244491E4006D9417 /* SeaLevelsViewController.swift */; };
+		48B50D3724D931BD00B8BEAC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48309F582439327600B7CFEE /* Utils.swift */; };
+		48B50D3824D931BD00B8BEAC /* CurrentSeaLevelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F3A9CA2426354D00094113 /* CurrentSeaLevelManager.swift */; };
+		48B50D3924D931BD00B8BEAC /* TileMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A6126244C38440044E1BA /* TileMO+CoreDataProperties.swift */; };
+		48B50D3A24D931BD00B8BEAC /* CurrentSeaLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC759244491E4006D9417 /* CurrentSeaLevelViewController.swift */; };
+		48B50D3B24D931BD00B8BEAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC0CA7021FE655E00ED4FA2 /* AppDelegate.swift */; };
+		48B50D3C24D931BD00B8BEAC /* URLTileSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485CB3172446F2FB00887A75 /* URLTileSource.swift */; };
+		48B50D3D24D931BD00B8BEAC /* SimulateSeaLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC75B244491E4006D9417 /* SimulateSeaLevelViewController.swift */; };
+		48B50D3E24D931BD00B8BEAC /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4844D24E241E33B100626949 /* SideMenuTableViewController.swift */; };
+		48B50D3F24D931BD00B8BEAC /* SLMapConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC77A2445CC93006D9417 /* SLMapConfig.swift */; };
+		48B50D4024D931BD00B8BEAC /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486AE27D24D56C4E00273FAD /* InfoViewController.swift */; };
+		48B50D4124D931BD00B8BEAC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4833B74A241E41A100AC72FE /* HomeViewController.swift */; };
+		48B50D4224D931BD00B8BEAC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4857B85524CF49870086AA64 /* SettingsViewController.swift */; };
+		48B50D4324D931BD00B8BEAC /* VBConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC7762445B0D3006D9417 /* VBConstants.swift */; };
+		48B50D4424D931BD00B8BEAC /* PathMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487F4A1F24CDB35600D462D6 /* PathMO+CoreDataProperties.swift */; };
+		48B50D4524D931BD00B8BEAC /* VeniceBoots.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 481A6110244C34C20044E1BA /* VeniceBoots.xcdatamodeld */; };
+		48B50D4624D931BD00B8BEAC /* TileSourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A612C244C3DB30044E1BA /* TileSourceManager.swift */; };
+		48B50D4724D931BD00B8BEAC /* PresentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4844D24F241E33B100626949 /* PresentedViewController.swift */; };
+		48B50D4824D931BD00B8BEAC /* TileID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485CB30F2446F2D100887A75 /* TileID.swift */; };
+		48B50D4924D931BD00B8BEAC /* CoreDataTileSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485CB319244712AE00887A75 /* CoreDataTileSource.swift */; };
+		48B50D4A24D931BD00B8BEAC /* SLMapContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC75F244491E4006D9417 /* SLMapContainerViewController.swift */; };
+		48B50D4B24D931BD00B8BEAC /* SLMapKitTileOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC7742445A0EC006D9417 /* SLMapKitTileOverlay.swift */; };
+		48B50D4C24D931BD00B8BEAC /* SLMapViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC76A24449208006D9417 /* SLMapViewControllerProtocol.swift */; };
+		48B50D4D24D931BD00B8BEAC /* SLMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC7782445B644006D9417 /* SLMapView.swift */; };
+		48B50D5124D931BD00B8BEAC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 487D066C24BDB39A009EBF52 /* Localizable.strings */; };
+		48B50D5324D931BD00B8BEAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC0CA7C21FE656000ED4FA2 /* LaunchScreen.storyboard */; };
+		48B50D5424D931BD00B8BEAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4829281124B7BCE7001B3A92 /* GoogleService-Info.plist */; };
+		48B50D5524D931BD00B8BEAC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 487D066D24BDB41B009EBF52 /* Localizable.strings */; };
+		48B50D5624D931BD00B8BEAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4844D251241E33B100626949 /* Main.storyboard */; settings = {ASSET_TAGS = (170, ); }; };
+		48B50D5724D931BD00B8BEAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC0CA7A21FE656000ED4FA2 /* Assets.xcassets */; };
+		48B50D6324D931E500B8BEAC /* SLMapKitMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC76C24449208006D9417 /* SLMapKitMapViewController.swift */; };
+		48B50D6424D931E500B8BEAC /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A6833024B9CF99004E383C /* GradientView.swift */; };
+		48B50D6524D931E500B8BEAC /* SeaLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F3A9CB2426354D00094113 /* SeaLevel.swift */; };
+		48B50D6724D931E500B8BEAC /* TileMO+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A6124244C38440044E1BA /* TileMO+CoreDataClass.swift */; };
+		48B50D6824D931E500B8BEAC /* HomeSideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487D067224BDBEBB009EBF52 /* HomeSideMenuTableViewController.swift */; };
+		48B50D6924D931E500B8BEAC /* SeaLevelsAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826CE4A249EDCC900050931 /* SeaLevelsAxisValueFormatter.swift */; };
+		48B50D6A24D931E500B8BEAC /* PathMO+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A6125244C38440044E1BA /* PathMO+CoreDataClass.swift */; };
+		48B50D6B24D931E500B8BEAC /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485CB3102446F2D100887A75 /* Tile.swift */; };
+		48B50D6C24D931E500B8BEAC /* TileSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485CB3152446F2E800887A75 /* TileSourceProtocol.swift */; };
+		48B50D6D24D931E500B8BEAC /* TilePersistenceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485CB31B244745C500887A75 /* TilePersistenceProtocol.swift */; };
+		48B50D6E24D931E500B8BEAC /* SeaLevelsSideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481CDAED24A7C20800EE79A0 /* SeaLevelsSideMenuTableViewController.swift */; };
+		48B50D6F24D931E500B8BEAC /* SeaLevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC760244491E4006D9417 /* SeaLevelsViewController.swift */; };
+		48B50D7024D931E500B8BEAC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48309F582439327600B7CFEE /* Utils.swift */; };
+		48B50D7124D931E500B8BEAC /* CurrentSeaLevelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F3A9CA2426354D00094113 /* CurrentSeaLevelManager.swift */; };
+		48B50D7224D931E500B8BEAC /* TileMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A6126244C38440044E1BA /* TileMO+CoreDataProperties.swift */; };
+		48B50D7324D931E500B8BEAC /* CurrentSeaLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC759244491E4006D9417 /* CurrentSeaLevelViewController.swift */; };
+		48B50D7424D931E500B8BEAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC0CA7021FE655E00ED4FA2 /* AppDelegate.swift */; };
+		48B50D7524D931E500B8BEAC /* URLTileSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485CB3172446F2FB00887A75 /* URLTileSource.swift */; };
+		48B50D7624D931E500B8BEAC /* SimulateSeaLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC75B244491E4006D9417 /* SimulateSeaLevelViewController.swift */; };
+		48B50D7724D931E500B8BEAC /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4844D24E241E33B100626949 /* SideMenuTableViewController.swift */; };
+		48B50D7824D931E500B8BEAC /* SLMapConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC77A2445CC93006D9417 /* SLMapConfig.swift */; };
+		48B50D7924D931E500B8BEAC /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486AE27D24D56C4E00273FAD /* InfoViewController.swift */; };
+		48B50D7A24D931E500B8BEAC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4833B74A241E41A100AC72FE /* HomeViewController.swift */; };
+		48B50D7B24D931E500B8BEAC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4857B85524CF49870086AA64 /* SettingsViewController.swift */; };
+		48B50D7C24D931E500B8BEAC /* VBConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC7762445B0D3006D9417 /* VBConstants.swift */; };
+		48B50D7D24D931E500B8BEAC /* PathMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487F4A1F24CDB35600D462D6 /* PathMO+CoreDataProperties.swift */; };
+		48B50D7E24D931E500B8BEAC /* VeniceBoots.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 481A6110244C34C20044E1BA /* VeniceBoots.xcdatamodeld */; };
+		48B50D7F24D931E500B8BEAC /* TileSourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A612C244C3DB30044E1BA /* TileSourceManager.swift */; };
+		48B50D8024D931E500B8BEAC /* PresentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4844D24F241E33B100626949 /* PresentedViewController.swift */; };
+		48B50D8124D931E500B8BEAC /* TileID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485CB30F2446F2D100887A75 /* TileID.swift */; };
+		48B50D8224D931E500B8BEAC /* CoreDataTileSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485CB319244712AE00887A75 /* CoreDataTileSource.swift */; };
+		48B50D8324D931E500B8BEAC /* SLMapContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC75F244491E4006D9417 /* SLMapContainerViewController.swift */; };
+		48B50D8424D931E500B8BEAC /* SLMapKitTileOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC7742445A0EC006D9417 /* SLMapKitTileOverlay.swift */; };
+		48B50D8524D931E500B8BEAC /* SLMapViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC76A24449208006D9417 /* SLMapViewControllerProtocol.swift */; };
+		48B50D8624D931E500B8BEAC /* SLMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481BC7782445B644006D9417 /* SLMapView.swift */; };
+		48B50D8824D931E500B8BEAC /* Pods_VeniceBoots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE8EBBB8D86C69B492C380B /* Pods_VeniceBoots.framework */; };
+		48B50D8A24D931E500B8BEAC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 487D066C24BDB39A009EBF52 /* Localizable.strings */; };
+		48B50D8C24D931E500B8BEAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC0CA7C21FE656000ED4FA2 /* LaunchScreen.storyboard */; };
+		48B50D8D24D931E500B8BEAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4829281124B7BCE7001B3A92 /* GoogleService-Info.plist */; };
+		48B50D8E24D931E500B8BEAC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 487D066D24BDB41B009EBF52 /* Localizable.strings */; };
+		48B50D8F24D931E500B8BEAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4844D251241E33B100626949 /* Main.storyboard */; settings = {ASSET_TAGS = (170, ); }; };
+		48B50D9024D931E500B8BEAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC0CA7A21FE656000ED4FA2 /* Assets.xcassets */; };
+		48B50D9924DA0C3600B8BEAC /* VeniceBootsDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4854E58124BC5DE3009D7523 /* VeniceBootsDev-Info.plist */; };
+		48B50D9A24DA0C3900B8BEAC /* VeniceBootsTest-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48B50D5F24D931BD00B8BEAC /* VeniceBootsTest-Info.plist */; };
+		48B50D9B24DA0C3B00B8BEAC /* VeniceBoots-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48B50D9824D931E500B8BEAC /* VeniceBoots-Info.plist */; };
+		5CB455B0C327CABD60884604 /* Pods_VeniceBootsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B5D3FB014DEB4F95D43842 /* Pods_VeniceBootsTest.framework */; };
+		80C82DFB3E99F4002F255718 /* Pods_VeniceBootsDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF00B5F835B51FB4BE0FBE6 /* Pods_VeniceBootsDev.framework */; };
+		FFA10F61299B5B6576F4A3AD /* Pods_VeniceBoots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE8EBBB8D86C69B492C380B /* Pods_VeniceBoots.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BEFFD7C708D0753688B6CF4 /* Pods-VeniceBootsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeniceBootsTest.release.xcconfig"; path = "Target Support Files/Pods-VeniceBootsTest/Pods-VeniceBootsTest.release.xcconfig"; sourceTree = "<group>"; };
+		2FF00B5F835B51FB4BE0FBE6 /* Pods_VeniceBootsDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeniceBootsDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E4F72C6DDF4008395BBEBB /* Pods-VeniceBootsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeniceBootsTest.debug.xcconfig"; path = "Target Support Files/Pods-VeniceBootsTest/Pods-VeniceBootsTest.debug.xcconfig"; sourceTree = "<group>"; };
+		481A6111244C34C20044E1BA /* VeniceBoots.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VeniceBoots.xcdatamodel; sourceTree = "<group>"; };
+		481A6124244C38440044E1BA /* TileMO+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TileMO+CoreDataClass.swift"; sourceTree = "<group>"; };
+		481A6125244C38440044E1BA /* PathMO+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PathMO+CoreDataClass.swift"; sourceTree = "<group>"; };
+		481A6126244C38440044E1BA /* TileMO+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TileMO+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		481A612C244C3DB30044E1BA /* TileSourceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileSourceManager.swift; sourceTree = "<group>"; };
+		481BC759244491E4006D9417 /* CurrentSeaLevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentSeaLevelViewController.swift; sourceTree = "<group>"; };
+		481BC75B244491E4006D9417 /* SimulateSeaLevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulateSeaLevelViewController.swift; sourceTree = "<group>"; };
+		481BC75F244491E4006D9417 /* SLMapContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLMapContainerViewController.swift; sourceTree = "<group>"; };
+		481BC760244491E4006D9417 /* SeaLevelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeaLevelsViewController.swift; sourceTree = "<group>"; };
+		481BC76A24449208006D9417 /* SLMapViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLMapViewControllerProtocol.swift; sourceTree = "<group>"; };
+		481BC76C24449208006D9417 /* SLMapKitMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLMapKitMapViewController.swift; sourceTree = "<group>"; };
+		481BC7742445A0EC006D9417 /* SLMapKitTileOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLMapKitTileOverlay.swift; sourceTree = "<group>"; };
+		481BC7762445B0D3006D9417 /* VBConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VBConstants.swift; sourceTree = "<group>"; };
+		481BC7782445B644006D9417 /* SLMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLMapView.swift; sourceTree = "<group>"; };
+		481BC77A2445CC93006D9417 /* SLMapConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLMapConfig.swift; sourceTree = "<group>"; };
+		481CDAED24A7C20800EE79A0 /* SeaLevelsSideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaLevelsSideMenuTableViewController.swift; sourceTree = "<group>"; };
+		4826CE4A249EDCC900050931 /* SeaLevelsAxisValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaLevelsAxisValueFormatter.swift; sourceTree = "<group>"; };
+		4828C7D62D20F0D00004E060 /* GridOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridOverlay.swift; sourceTree = "<group>"; };
+		4828C7DA2D20F1110004E060 /* HackTileOverlayRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackTileOverlayRenderer.swift; sourceTree = "<group>"; };
+		4828C7DE2D20F1400004E060 /* DelayedGridOverlayRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayedGridOverlayRenderer.swift; sourceTree = "<group>"; };
+		4829281124B7BCE7001B3A92 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		48309F582439327600B7CFEE /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		4833B74A241E41A100AC72FE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		48354F55243D202F000ED532 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4844D24E241E33B100626949 /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		4844D24F241E33B100626949 /* PresentedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentedViewController.swift; sourceTree = "<group>"; };
+		4844D251241E33B100626949 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4854E58024BC5DE3009D7523 /* VeniceBootsDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeniceBootsDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4854E58124BC5DE3009D7523 /* VeniceBootsDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "VeniceBootsDev-Info.plist"; path = "/Users/biasu/Documents/git/veniceboots-ios/VeniceBoots/VeniceBootsDev-Info.plist"; sourceTree = "<absolute>"; };
+		4857B85524CF49870086AA64 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		485CB30F2446F2D100887A75 /* TileID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileID.swift; sourceTree = "<group>"; };
+		485CB3102446F2D100887A75 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		485CB3152446F2E800887A75 /* TileSourceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileSourceProtocol.swift; sourceTree = "<group>"; };
+		485CB3172446F2FB00887A75 /* URLTileSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLTileSource.swift; sourceTree = "<group>"; };
+		485CB319244712AE00887A75 /* CoreDataTileSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTileSource.swift; sourceTree = "<group>"; };
+		485CB31B244745C500887A75 /* TilePersistenceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilePersistenceProtocol.swift; sourceTree = "<group>"; };
+		486AE27D24D56C4E00273FAD /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		48792F3D24EC718B005BA123 /* LegendContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendContainerViewController.swift; sourceTree = "<group>"; };
+		48792F4924EC78FE005BA123 /* SeaLevelLegendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaLevelLegendCell.swift; sourceTree = "<group>"; };
+		48792F4A24EC78FE005BA123 /* SeaLevelLegendCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeaLevelLegendCell.xib; sourceTree = "<group>"; };
+		487D066B24BDB39A009EBF52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		487D066E24BDB41B009EBF52 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		487D067024BDB612009EBF52 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = it; path = it.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		487D067124BDB612009EBF52 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		487D067224BDBEBB009EBF52 /* HomeSideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSideMenuTableViewController.swift; sourceTree = "<group>"; };
+		487F4A1F24CDB35600D462D6 /* PathMO+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PathMO+CoreDataProperties.swift"; path = "/Users/biasu/Documents/git/veniceboots-ios/VeniceBoots/VeniceBoots/CoreDataMO/PathMO+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		48A6833024B9CF99004E383C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		48B50D5E24D931BD00B8BEAC /* VeniceBootsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeniceBootsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B50D5F24D931BD00B8BEAC /* VeniceBootsTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "VeniceBootsTest-Info.plist"; path = "/Users/biasu/Documents/git/veniceboots-ios/VeniceBoots/VeniceBootsTest-Info.plist"; sourceTree = "<absolute>"; };
+		48B50D9724D931E500B8BEAC /* VeniceBoots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeniceBoots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B50D9824D931E500B8BEAC /* VeniceBoots-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "VeniceBoots-Info.plist"; path = "/Users/biasu/Documents/git/veniceboots-ios/VeniceBoots/VeniceBoots-Info.plist"; sourceTree = "<absolute>"; };
+		48F3A9CA2426354D00094113 /* CurrentSeaLevelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentSeaLevelManager.swift; sourceTree = "<group>"; };
+		48F3A9CB2426354D00094113 /* SeaLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeaLevel.swift; sourceTree = "<group>"; };
+		4FC0CA7021FE655E00ED4FA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FC0CA7A21FE656000ED4FA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FC0CA7F21FE656000ED4FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FC0CA8A21FE656000ED4FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FC0CA9321FE6B1900ED4FA2 /* VeniceBoots-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VeniceBoots-Bridging-Header.h"; sourceTree = "<group>"; };
+		66B5D3FB014DEB4F95D43842 /* Pods_VeniceBootsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeniceBootsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECCADD922A64E8210159223 /* Pods-VeniceBootsDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeniceBootsDev.debug.xcconfig"; path = "Target Support Files/Pods-VeniceBootsDev/Pods-VeniceBootsDev.debug.xcconfig"; sourceTree = "<group>"; };
+		9A3DA3515D186A3E59B590B6 /* Pods-VeniceBoots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeniceBoots.debug.xcconfig"; path = "Target Support Files/Pods-VeniceBoots/Pods-VeniceBoots.debug.xcconfig"; sourceTree = "<group>"; };
+		9BE8EBBB8D86C69B492C380B /* Pods_VeniceBoots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeniceBoots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26D78F3CD33D95A5501DFEC /* Pods-VeniceBootsDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeniceBootsDev.release.xcconfig"; path = "Target Support Files/Pods-VeniceBootsDev/Pods-VeniceBootsDev.release.xcconfig"; sourceTree = "<group>"; };
+		F26ED5FEC134B19D2225BB9F /* Pods-VeniceBoots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeniceBoots.release.xcconfig"; path = "Target Support Files/Pods-VeniceBoots/Pods-VeniceBoots.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4854E57124BC5DE3009D7523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C82DFB3E99F4002F255718 /* Pods_VeniceBootsDev.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B50D4E24D931BD00B8BEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB455B0C327CABD60884604 /* Pods_VeniceBootsTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B50D8724D931E500B8BEAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B50D8824D931E500B8BEAC /* Pods_VeniceBoots.framework in Frameworks */,
+				FFA10F61299B5B6576F4A3AD /* Pods_VeniceBoots.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FFCF23E07BF0DB0C4BFCA35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A3DA3515D186A3E59B590B6 /* Pods-VeniceBoots.debug.xcconfig */,
+				F26ED5FEC134B19D2225BB9F /* Pods-VeniceBoots.release.xcconfig */,
+				8ECCADD922A64E8210159223 /* Pods-VeniceBootsDev.debug.xcconfig */,
+				F26D78F3CD33D95A5501DFEC /* Pods-VeniceBootsDev.release.xcconfig */,
+				30E4F72C6DDF4008395BBEBB /* Pods-VeniceBootsTest.debug.xcconfig */,
+				0BEFFD7C708D0753688B6CF4 /* Pods-VeniceBootsTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		481A6113244C36BA0044E1BA /* CoreDataMO */ = {
+			isa = PBXGroup;
+			children = (
+				487F4A1F24CDB35600D462D6 /* PathMO+CoreDataProperties.swift */,
+				481A6124244C38440044E1BA /* TileMO+CoreDataClass.swift */,
+				481A6126244C38440044E1BA /* TileMO+CoreDataProperties.swift */,
+			);
+			path = CoreDataMO;
+			sourceTree = "<group>";
+		};
+		481BC758244491E4006D9417 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				481BC759244491E4006D9417 /* CurrentSeaLevelViewController.swift */,
+				487D067224BDBEBB009EBF52 /* HomeSideMenuTableViewController.swift */,
+				486AE27D24D56C4E00273FAD /* InfoViewController.swift */,
+				48792F3D24EC718B005BA123 /* LegendContainerViewController.swift */,
+				481BC76924449208006D9417 /* Map */,
+				4826CE4A249EDCC900050931 /* SeaLevelsAxisValueFormatter.swift */,
+				481CDAED24A7C20800EE79A0 /* SeaLevelsSideMenuTableViewController.swift */,
+				481BC760244491E4006D9417 /* SeaLevelsViewController.swift */,
+				4857B85524CF49870086AA64 /* SettingsViewController.swift */,
+				481BC75B244491E4006D9417 /* SimulateSeaLevelViewController.swift */,
+				481BC75F244491E4006D9417 /* SLMapContainerViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		481BC76924449208006D9417 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				481BC77A2445CC93006D9417 /* SLMapConfig.swift */,
+				481BC76A24449208006D9417 /* SLMapViewControllerProtocol.swift */,
+				481BC76C24449208006D9417 /* SLMapKitMapViewController.swift */,
+				481BC7742445A0EC006D9417 /* SLMapKitTileOverlay.swift */,
+				481BC7782445B644006D9417 /* SLMapView.swift */,
+				4828C7D62D20F0D00004E060 /* GridOverlay.swift */,
+				4828C7DA2D20F1110004E060 /* HackTileOverlayRenderer.swift */,
+				4828C7DE2D20F1400004E060 /* DelayedGridOverlayRenderer.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		48309F572439326B00B7CFEE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				48309F582439327600B7CFEE /* Utils.swift */,
+				481BC7762445B0D3006D9417 /* VBConstants.swift */,
+				48A6833024B9CF99004E383C /* GradientView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		485CB30C2446F2D100887A75 /* Tile */ = {
+			isa = PBXGroup;
+			children = (
+				485CB3142446F2E800887A75 /* Sources */,
+				485CB30E2446F2D100887A75 /* Model */,
+			);
+			path = Tile;
+			sourceTree = "<group>";
+		};
+		485CB30E2446F2D100887A75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				485CB30F2446F2D100887A75 /* TileID.swift */,
+				485CB3102446F2D100887A75 /* Tile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		485CB3142446F2E800887A75 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				485CB3152446F2E800887A75 /* TileSourceProtocol.swift */,
+				485CB3172446F2FB00887A75 /* URLTileSource.swift */,
+				485CB319244712AE00887A75 /* CoreDataTileSource.swift */,
+				485CB31B244745C500887A75 /* TilePersistenceProtocol.swift */,
+				481A612C244C3DB30044E1BA /* TileSourceManager.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		48F3A9C92426354D00094113 /* SeaLevel */ = {
+			isa = PBXGroup;
+			children = (
+				48F3A9CA2426354D00094113 /* CurrentSeaLevelManager.swift */,
+				48F3A9CB2426354D00094113 /* SeaLevel.swift */,
+			);
+			path = SeaLevel;
+			sourceTree = "<group>";
+		};
+		4FC0CA6421FE655E00ED4FA2 = {
+			isa = PBXGroup;
+			children = (
+				4829281124B7BCE7001B3A92 /* GoogleService-Info.plist */,
+				4FC0CA6F21FE655E00ED4FA2 /* VeniceBoots */,
+				4FC0CA8721FE656000ED4FA2 /* VeniceBootsTests */,
+				4FC0CA6E21FE655E00ED4FA2 /* Products */,
+				A486F81C9A5C2519452F2F75 /* Frameworks */,
+				0FFCF23E07BF0DB0C4BFCA35 /* Pods */,
+				4854E58124BC5DE3009D7523 /* VeniceBootsDev-Info.plist */,
+				48B50D5F24D931BD00B8BEAC /* VeniceBootsTest-Info.plist */,
+				48B50D9824D931E500B8BEAC /* VeniceBoots-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		4FC0CA6E21FE655E00ED4FA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4854E58024BC5DE3009D7523 /* VeniceBootsDev.app */,
+				48B50D5E24D931BD00B8BEAC /* VeniceBootsTest.app */,
+				48B50D9724D931E500B8BEAC /* VeniceBoots.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FC0CA6F21FE655E00ED4FA2 /* VeniceBoots */ = {
+			isa = PBXGroup;
+			children = (
+				481A6125244C38440044E1BA /* PathMO+CoreDataClass.swift */,
+				487D066D24BDB41B009EBF52 /* Localizable.strings */,
+				487D066C24BDB39A009EBF52 /* Localizable.strings */,
+				481A6113244C36BA0044E1BA /* CoreDataMO */,
+				485CB30C2446F2D100887A75 /* Tile */,
+				481BC758244491E4006D9417 /* ViewControllers */,
+				48309F572439326B00B7CFEE /* Utils */,
+				48F3A9C92426354D00094113 /* SeaLevel */,
+				4FC0CAAA21FE6BDE00ED4FA2 /* Resources */,
+				4844D251241E33B100626949 /* Main.storyboard */,
+				48792F4924EC78FE005BA123 /* SeaLevelLegendCell.swift */,
+				48792F4A24EC78FE005BA123 /* SeaLevelLegendCell.xib */,
+				4844D24F241E33B100626949 /* PresentedViewController.swift */,
+				4844D24E241E33B100626949 /* SideMenuTableViewController.swift */,
+				4833B74A241E41A100AC72FE /* HomeViewController.swift */,
+				4FC0CA7021FE655E00ED4FA2 /* AppDelegate.swift */,
+				4FC0CA7A21FE656000ED4FA2 /* Assets.xcassets */,
+				4FC0CA7C21FE656000ED4FA2 /* LaunchScreen.storyboard */,
+				4FC0CA7F21FE656000ED4FA2 /* Info.plist */,
+				4FC0CA9321FE6B1900ED4FA2 /* VeniceBoots-Bridging-Header.h */,
+			);
+			path = VeniceBoots;
+			sourceTree = "<group>";
+		};
+		4FC0CA8721FE656000ED4FA2 /* VeniceBootsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FC0CA8A21FE656000ED4FA2 /* Info.plist */,
+			);
+			path = VeniceBootsTests;
+			sourceTree = "<group>";
+		};
+		4FC0CAAA21FE6BDE00ED4FA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				481A6110244C34C20044E1BA /* VeniceBoots.xcdatamodeld */,
+			);
+			name = Resources;
+			path = VeniceBoots/Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		A486F81C9A5C2519452F2F75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48354F55243D202F000ED532 /* iOSDropDown.framework */,
+				9BE8EBBB8D86C69B492C380B /* Pods_VeniceBoots.framework */,
+				2FF00B5F835B51FB4BE0FBE6 /* Pods_VeniceBootsDev.framework */,
+				66B5D3FB014DEB4F95D43842 /* Pods_VeniceBootsTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4854E54D24BC5DE3009D7523 /* VeniceBootsDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4854E57D24BC5DE3009D7523 /* Build configuration list for PBXNativeTarget "VeniceBootsDev" */;
+			buildPhases = (
+				123145A7AF9A435332A97A94 /* [CP] Check Pods Manifest.lock */,
+				4854E54F24BC5DE3009D7523 /* Sources */,
+				4854E57124BC5DE3009D7523 /* Frameworks */,
+				4854E57324BC5DE3009D7523 /* Resources */,
+				4854E57C24BC5DE3009D7523 /* ShellScript */,
+				1B8500345217B1D2CF9267D0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeniceBootsDev;
+			productName = VeniceBoots;
+			productReference = 4854E58024BC5DE3009D7523 /* VeniceBootsDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48B50D2724D931BD00B8BEAC /* VeniceBootsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48B50D5B24D931BD00B8BEAC /* Build configuration list for PBXNativeTarget "VeniceBootsTest" */;
+			buildPhases = (
+				41237F318259A44F1E34372D /* [CP] Check Pods Manifest.lock */,
+				48B50D2924D931BD00B8BEAC /* Sources */,
+				48B50D4E24D931BD00B8BEAC /* Frameworks */,
+				48B50D5024D931BD00B8BEAC /* Resources */,
+				48B50D5A24D931BD00B8BEAC /* ShellScript */,
+				9206BC97F3B358CB98509750 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeniceBootsTest;
+			productName = VeniceBoots;
+			productReference = 48B50D5E24D931BD00B8BEAC /* VeniceBootsTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48B50D6024D931E500B8BEAC /* VeniceBoots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48B50D9424D931E500B8BEAC /* Build configuration list for PBXNativeTarget "VeniceBoots" */;
+			buildPhases = (
+				48B50D6124D931E500B8BEAC /* [CP] Check Pods Manifest.lock */,
+				48B50D6224D931E500B8BEAC /* Sources */,
+				48B50D8724D931E500B8BEAC /* Frameworks */,
+				48B50D8924D931E500B8BEAC /* Resources */,
+				48B50D9124D931E500B8BEAC /* [CP] Embed Pods Frameworks */,
+				48B50D9324D931E500B8BEAC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeniceBoots;
+			productName = VeniceBoots;
+			productReference = 48B50D9724D931E500B8BEAC /* VeniceBoots.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FC0CA6521FE655E00ED4FA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					170,
+				);
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Stefano Biasutti";
+			};
+			buildConfigurationList = 4FC0CA6821FE655E00ED4FA2 /* Build configuration list for PBXProject "VeniceBoots" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				it,
+			);
+			mainGroup = 4FC0CA6421FE655E00ED4FA2;
+			productRefGroup = 4FC0CA6E21FE655E00ED4FA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4854E54D24BC5DE3009D7523 /* VeniceBootsDev */,
+				48B50D2724D931BD00B8BEAC /* VeniceBootsTest */,
+				48B50D6024D931E500B8BEAC /* VeniceBoots */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4854E57324BC5DE3009D7523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487D066A24BDB39A009EBF52 /* Localizable.strings in Resources */,
+				4854E57624BC5DE3009D7523 /* LaunchScreen.storyboard in Resources */,
+				4854E57724BC5DE3009D7523 /* GoogleService-Info.plist in Resources */,
+				48B50D9924DA0C3600B8BEAC /* VeniceBootsDev-Info.plist in Resources */,
+				48792F4E24EC78FE005BA123 /* SeaLevelLegendCell.xib in Resources */,
+				487D066F24BDB41B009EBF52 /* Localizable.strings in Resources */,
+				4854E57824BC5DE3009D7523 /* Main.storyboard in Resources */,
+				4854E57924BC5DE3009D7523 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B50D5024D931BD00B8BEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B50D5124D931BD00B8BEAC /* Localizable.strings in Resources */,
+				48B50D5324D931BD00B8BEAC /* LaunchScreen.storyboard in Resources */,
+				48B50D5424D931BD00B8BEAC /* GoogleService-Info.plist in Resources */,
+				48B50D5524D931BD00B8BEAC /* Localizable.strings in Resources */,
+				48792F4F24EC78FE005BA123 /* SeaLevelLegendCell.xib in Resources */,
+				48B50D5624D931BD00B8BEAC /* Main.storyboard in Resources */,
+				48B50D9A24DA0C3900B8BEAC /* VeniceBootsTest-Info.plist in Resources */,
+				48B50D5724D931BD00B8BEAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B50D8924D931E500B8BEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B50D8A24D931E500B8BEAC /* Localizable.strings in Resources */,
+				48B50D9B24DA0C3B00B8BEAC /* VeniceBoots-Info.plist in Resources */,
+				48B50D8C24D931E500B8BEAC /* LaunchScreen.storyboard in Resources */,
+				48B50D8D24D931E500B8BEAC /* GoogleService-Info.plist in Resources */,
+				48792F5024EC78FE005BA123 /* SeaLevelLegendCell.xib in Resources */,
+				48B50D8E24D931E500B8BEAC /* Localizable.strings in Resources */,
+				48B50D8F24D931E500B8BEAC /* Main.storyboard in Resources */,
+				48B50D9024D931E500B8BEAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		123145A7AF9A435332A97A94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VeniceBootsDev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B8500345217B1D2CF9267D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeniceBootsDev/Pods-VeniceBootsDev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeniceBootsDev/Pods-VeniceBootsDev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VeniceBootsDev/Pods-VeniceBootsDev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41237F318259A44F1E34372D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VeniceBootsTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4854E57C24BC5DE3009D7523 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		48B50D5A24D931BD00B8BEAC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		48B50D6124D931E500B8BEAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VeniceBoots-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48B50D9124D931E500B8BEAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeniceBoots/Pods-VeniceBoots-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeniceBoots/Pods-VeniceBoots-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VeniceBoots/Pods-VeniceBoots-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48B50D9324D931E500B8BEAC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		9206BC97F3B358CB98509750 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeniceBootsTest/Pods-VeniceBootsTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VeniceBootsTest/Pods-VeniceBootsTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VeniceBootsTest/Pods-VeniceBootsTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4854E54F24BC5DE3009D7523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4854E55024BC5DE3009D7523 /* SLMapKitMapViewController.swift in Sources */,
+				4854E55224BC5DE3009D7523 /* GradientView.swift in Sources */,
+				4854E55324BC5DE3009D7523 /* SeaLevel.swift in Sources */,
+				4854E55524BC5DE3009D7523 /* TileMO+CoreDataClass.swift in Sources */,
+				48792F4B24EC78FE005BA123 /* SeaLevelLegendCell.swift in Sources */,
+				487D067324BDBEBB009EBF52 /* HomeSideMenuTableViewController.swift in Sources */,
+				4854E55624BC5DE3009D7523 /* SeaLevelsAxisValueFormatter.swift in Sources */,
+				4854E55724BC5DE3009D7523 /* PathMO+CoreDataClass.swift in Sources */,
+				4854E55824BC5DE3009D7523 /* Tile.swift in Sources */,
+				4854E55924BC5DE3009D7523 /* TileSourceProtocol.swift in Sources */,
+				4854E55A24BC5DE3009D7523 /* TilePersistenceProtocol.swift in Sources */,
+				4854E55B24BC5DE3009D7523 /* SeaLevelsSideMenuTableViewController.swift in Sources */,
+				4854E55C24BC5DE3009D7523 /* SeaLevelsViewController.swift in Sources */,
+				4854E55D24BC5DE3009D7523 /* Utils.swift in Sources */,
+				4854E55E24BC5DE3009D7523 /* CurrentSeaLevelManager.swift in Sources */,
+				4854E55F24BC5DE3009D7523 /* TileMO+CoreDataProperties.swift in Sources */,
+				4854E56024BC5DE3009D7523 /* CurrentSeaLevelViewController.swift in Sources */,
+				4854E56124BC5DE3009D7523 /* AppDelegate.swift in Sources */,
+				4854E56224BC5DE3009D7523 /* URLTileSource.swift in Sources */,
+				4854E56324BC5DE3009D7523 /* SimulateSeaLevelViewController.swift in Sources */,
+				4828C7DF2D20F1400004E060 /* DelayedGridOverlayRenderer.swift in Sources */,
+				4854E56424BC5DE3009D7523 /* SideMenuTableViewController.swift in Sources */,
+				4854E56524BC5DE3009D7523 /* SLMapConfig.swift in Sources */,
+				486AE27E24D56C4E00273FAD /* InfoViewController.swift in Sources */,
+				4854E56624BC5DE3009D7523 /* HomeViewController.swift in Sources */,
+				4828C7DB2D20F1110004E060 /* HackTileOverlayRenderer.swift in Sources */,
+				4857B85624CF49870086AA64 /* SettingsViewController.swift in Sources */,
+				4854E56724BC5DE3009D7523 /* VBConstants.swift in Sources */,
+				487F4A2224CDB35600D462D6 /* PathMO+CoreDataProperties.swift in Sources */,
+				48792F4424EC7516005BA123 /* LegendContainerViewController.swift in Sources */,
+				4854E56824BC5DE3009D7523 /* VeniceBoots.xcdatamodeld in Sources */,
+				4854E56924BC5DE3009D7523 /* TileSourceManager.swift in Sources */,
+				4854E56A24BC5DE3009D7523 /* PresentedViewController.swift in Sources */,
+				4854E56B24BC5DE3009D7523 /* TileID.swift in Sources */,
+				4854E56C24BC5DE3009D7523 /* CoreDataTileSource.swift in Sources */,
+				4854E56D24BC5DE3009D7523 /* SLMapContainerViewController.swift in Sources */,
+				4828C7D72D20F0D00004E060 /* GridOverlay.swift in Sources */,
+				4854E56E24BC5DE3009D7523 /* SLMapKitTileOverlay.swift in Sources */,
+				4854E56F24BC5DE3009D7523 /* SLMapViewControllerProtocol.swift in Sources */,
+				4854E57024BC5DE3009D7523 /* SLMapView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B50D2924D931BD00B8BEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B50D2A24D931BD00B8BEAC /* SLMapKitMapViewController.swift in Sources */,
+				48B50D2B24D931BD00B8BEAC /* GradientView.swift in Sources */,
+				48B50D2C24D931BD00B8BEAC /* SeaLevel.swift in Sources */,
+				48B50D2E24D931BD00B8BEAC /* TileMO+CoreDataClass.swift in Sources */,
+				48792F4C24EC78FE005BA123 /* SeaLevelLegendCell.swift in Sources */,
+				48B50D2F24D931BD00B8BEAC /* HomeSideMenuTableViewController.swift in Sources */,
+				48B50D3024D931BD00B8BEAC /* SeaLevelsAxisValueFormatter.swift in Sources */,
+				48B50D3124D931BD00B8BEAC /* PathMO+CoreDataClass.swift in Sources */,
+				48B50D3224D931BD00B8BEAC /* Tile.swift in Sources */,
+				48B50D3324D931BD00B8BEAC /* TileSourceProtocol.swift in Sources */,
+				48B50D3424D931BD00B8BEAC /* TilePersistenceProtocol.swift in Sources */,
+				48B50D3524D931BD00B8BEAC /* SeaLevelsSideMenuTableViewController.swift in Sources */,
+				48B50D3624D931BD00B8BEAC /* SeaLevelsViewController.swift in Sources */,
+				48B50D3724D931BD00B8BEAC /* Utils.swift in Sources */,
+				48B50D3824D931BD00B8BEAC /* CurrentSeaLevelManager.swift in Sources */,
+				48B50D3924D931BD00B8BEAC /* TileMO+CoreDataProperties.swift in Sources */,
+				48B50D3A24D931BD00B8BEAC /* CurrentSeaLevelViewController.swift in Sources */,
+				48B50D3B24D931BD00B8BEAC /* AppDelegate.swift in Sources */,
+				48B50D3C24D931BD00B8BEAC /* URLTileSource.swift in Sources */,
+				48B50D3D24D931BD00B8BEAC /* SimulateSeaLevelViewController.swift in Sources */,
+				4828C7E02D20F1400004E060 /* DelayedGridOverlayRenderer.swift in Sources */,
+				48B50D3E24D931BD00B8BEAC /* SideMenuTableViewController.swift in Sources */,
+				48B50D3F24D931BD00B8BEAC /* SLMapConfig.swift in Sources */,
+				48B50D4024D931BD00B8BEAC /* InfoViewController.swift in Sources */,
+				48B50D4124D931BD00B8BEAC /* HomeViewController.swift in Sources */,
+				4828C7DC2D20F1110004E060 /* HackTileOverlayRenderer.swift in Sources */,
+				48B50D4224D931BD00B8BEAC /* SettingsViewController.swift in Sources */,
+				48B50D4324D931BD00B8BEAC /* VBConstants.swift in Sources */,
+				48B50D4424D931BD00B8BEAC /* PathMO+CoreDataProperties.swift in Sources */,
+				48792F4324EC7516005BA123 /* LegendContainerViewController.swift in Sources */,
+				48B50D4524D931BD00B8BEAC /* VeniceBoots.xcdatamodeld in Sources */,
+				48B50D4624D931BD00B8BEAC /* TileSourceManager.swift in Sources */,
+				48B50D4724D931BD00B8BEAC /* PresentedViewController.swift in Sources */,
+				48B50D4824D931BD00B8BEAC /* TileID.swift in Sources */,
+				48B50D4924D931BD00B8BEAC /* CoreDataTileSource.swift in Sources */,
+				48B50D4A24D931BD00B8BEAC /* SLMapContainerViewController.swift in Sources */,
+				4828C7D82D20F0D00004E060 /* GridOverlay.swift in Sources */,
+				48B50D4B24D931BD00B8BEAC /* SLMapKitTileOverlay.swift in Sources */,
+				48B50D4C24D931BD00B8BEAC /* SLMapViewControllerProtocol.swift in Sources */,
+				48B50D4D24D931BD00B8BEAC /* SLMapView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B50D6224D931E500B8BEAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B50D6324D931E500B8BEAC /* SLMapKitMapViewController.swift in Sources */,
+				48B50D6424D931E500B8BEAC /* GradientView.swift in Sources */,
+				48B50D6524D931E500B8BEAC /* SeaLevel.swift in Sources */,
+				48B50D6724D931E500B8BEAC /* TileMO+CoreDataClass.swift in Sources */,
+				48792F4D24EC78FE005BA123 /* SeaLevelLegendCell.swift in Sources */,
+				48B50D6824D931E500B8BEAC /* HomeSideMenuTableViewController.swift in Sources */,
+				48B50D6924D931E500B8BEAC /* SeaLevelsAxisValueFormatter.swift in Sources */,
+				48B50D6A24D931E500B8BEAC /* PathMO+CoreDataClass.swift in Sources */,
+				48B50D6B24D931E500B8BEAC /* Tile.swift in Sources */,
+				48B50D6C24D931E500B8BEAC /* TileSourceProtocol.swift in Sources */,
+				48B50D6D24D931E500B8BEAC /* TilePersistenceProtocol.swift in Sources */,
+				48792F3E24EC718B005BA123 /* LegendContainerViewController.swift in Sources */,
+				48B50D6E24D931E500B8BEAC /* SeaLevelsSideMenuTableViewController.swift in Sources */,
+				48B50D6F24D931E500B8BEAC /* SeaLevelsViewController.swift in Sources */,
+				48B50D7024D931E500B8BEAC /* Utils.swift in Sources */,
+				48B50D7124D931E500B8BEAC /* CurrentSeaLevelManager.swift in Sources */,
+				48B50D7224D931E500B8BEAC /* TileMO+CoreDataProperties.swift in Sources */,
+				48B50D7324D931E500B8BEAC /* CurrentSeaLevelViewController.swift in Sources */,
+				48B50D7424D931E500B8BEAC /* AppDelegate.swift in Sources */,
+				48B50D7524D931E500B8BEAC /* URLTileSource.swift in Sources */,
+				4828C7E12D20F1400004E060 /* DelayedGridOverlayRenderer.swift in Sources */,
+				48B50D7624D931E500B8BEAC /* SimulateSeaLevelViewController.swift in Sources */,
+				48B50D7724D931E500B8BEAC /* SideMenuTableViewController.swift in Sources */,
+				48B50D7824D931E500B8BEAC /* SLMapConfig.swift in Sources */,
+				48B50D7924D931E500B8BEAC /* InfoViewController.swift in Sources */,
+				4828C7DD2D20F1110004E060 /* HackTileOverlayRenderer.swift in Sources */,
+				48B50D7A24D931E500B8BEAC /* HomeViewController.swift in Sources */,
+				48B50D7B24D931E500B8BEAC /* SettingsViewController.swift in Sources */,
+				48B50D7C24D931E500B8BEAC /* VBConstants.swift in Sources */,
+				48B50D7D24D931E500B8BEAC /* PathMO+CoreDataProperties.swift in Sources */,
+				48B50D7E24D931E500B8BEAC /* VeniceBoots.xcdatamodeld in Sources */,
+				48B50D7F24D931E500B8BEAC /* TileSourceManager.swift in Sources */,
+				48B50D8024D931E500B8BEAC /* PresentedViewController.swift in Sources */,
+				48B50D8124D931E500B8BEAC /* TileID.swift in Sources */,
+				48B50D8224D931E500B8BEAC /* CoreDataTileSource.swift in Sources */,
+				48B50D8324D931E500B8BEAC /* SLMapContainerViewController.swift in Sources */,
+				4828C7D92D20F0D00004E060 /* GridOverlay.swift in Sources */,
+				48B50D8424D931E500B8BEAC /* SLMapKitTileOverlay.swift in Sources */,
+				48B50D8524D931E500B8BEAC /* SLMapViewControllerProtocol.swift in Sources */,
+				48B50D8624D931E500B8BEAC /* SLMapView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		487D066C24BDB39A009EBF52 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				487D066B24BDB39A009EBF52 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		487D066D24BDB41B009EBF52 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				487D066E24BDB41B009EBF52 /* it */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		4FC0CA7C21FE656000ED4FA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				487D067024BDB612009EBF52 /* it */,
+				487D067124BDB612009EBF52 /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4854E57E24BC5DE3009D7523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ECCADD922A64E8210159223 /* Pods-VeniceBootsDev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E38WUH2B6D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "VeniceBootsDev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.biasu.veniceboots.dev;
+				PRODUCT_NAME = VeniceBootsDev;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "VeniceBoots/VeniceBoots-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4854E57F24BC5DE3009D7523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F26D78F3CD33D95A5501DFEC /* Pods-VeniceBootsDev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E38WUH2B6D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "VeniceBootsDev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.biasu.veniceboots.dev;
+				PRODUCT_NAME = VeniceBootsDev;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "VeniceBoots/VeniceBoots-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48B50D5C24D931BD00B8BEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E4F72C6DDF4008395BBEBB /* Pods-VeniceBootsTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E38WUH2B6D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "VeniceBootsTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.biasu.veniceboots.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "VeniceBoots/VeniceBoots-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48B50D5D24D931BD00B8BEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BEFFD7C708D0753688B6CF4 /* Pods-VeniceBootsTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = E38WUH2B6D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "VeniceBootsTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.biasu.veniceboots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = prov_prof_com.biasu.veniceboots_ad_hoc_2;
+				SWIFT_OBJC_BRIDGING_HEADER = "VeniceBoots/VeniceBoots-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48B50D9524D931E500B8BEAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3DA3515D186A3E59B590B6 /* Pods-VeniceBoots.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 7;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = E38WUH2B6D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "VeniceBoots-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.biasu.veniceboots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = prov_prof_com.biasu.veniceboots_ad_hoc_2;
+				SWIFT_OBJC_BRIDGING_HEADER = "VeniceBoots/VeniceBoots-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48B50D9624D931E500B8BEAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F26ED5FEC134B19D2225BB9F /* Pods-VeniceBoots.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = E38WUH2B6D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "VeniceBoots-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.biasu.veniceboots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = prov_prof_com.biasu.veniceboots_ad_hoc_2;
+				SWIFT_OBJC_BRIDGING_HEADER = "VeniceBoots/VeniceBoots-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FC0CA8B21FE656000ED4FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FC0CA8C21FE656000ED4FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4854E57D24BC5DE3009D7523 /* Build configuration list for PBXNativeTarget "VeniceBootsDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4854E57E24BC5DE3009D7523 /* Debug */,
+				4854E57F24BC5DE3009D7523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48B50D5B24D931BD00B8BEAC /* Build configuration list for PBXNativeTarget "VeniceBootsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B50D5C24D931BD00B8BEAC /* Debug */,
+				48B50D5D24D931BD00B8BEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48B50D9424D931E500B8BEAC /* Build configuration list for PBXNativeTarget "VeniceBoots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B50D9524D931E500B8BEAC /* Debug */,
+				48B50D9624D931E500B8BEAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FC0CA6821FE655E00ED4FA2 /* Build configuration list for PBXProject "VeniceBoots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC0CA8B21FE656000ED4FA2 /* Debug */,
+				4FC0CA8C21FE656000ED4FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		481A6110244C34C20044E1BA /* VeniceBoots.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				481A6111244C34C20044E1BA /* VeniceBoots.xcdatamodel */,
+			);
+			currentVersion = 481A6111244C34C20044E1BA /* VeniceBoots.xcdatamodel */;
+			path = VeniceBoots.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4FC0CA6521FE655E00ED4FA2 /* Project object */;
+}
